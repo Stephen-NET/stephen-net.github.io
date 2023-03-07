@@ -32,19 +32,17 @@ export default {
                 {
                     text: 'Config-SectionA',
                     items: [
-                        // This shows `/config/index.md` page.
-                        { text: 'Index', link: '/config/' }, // /config/index.md
-                        { text: 'Three', link: '/config/three' }, // /config/three.md
-                        { text: 'Four', link: '/config/four' } // /config/four.md
+                        { text: 'Index', link: '/config/section-a' }, 
+                        { text: 'Three', link: '/config/section-a/three' },
+                        { text: 'Four', link: '/config/section-a/four' }
                     ]
                 },
                 {
                     text: 'Config-SectionB',
                     items: [
-                        // This shows `/config/index.md` page.
-                        { text: 'Index', link: '/config/' }, // /config/index.md
-                        { text: 'Three', link: '/config/three' }, // /config/three.md
-                        { text: 'Four', link: '/config/four' } // /config/four.md
+                        { text: 'Index', link: '/config/section-b' },
+                        { text: 'Three', link: '/config/section-b/three' },
+                        { text: 'Four', link: '/config/section-b/four' } 
                     ]
                 }
             ]
