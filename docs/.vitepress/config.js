@@ -12,6 +12,16 @@ export default {
                     { text: 'Item C', link: '/item-3' }
                 ]
             }
-        ]
+        ],
+        sidebar: [
+            {
+              text: 'Guide',
+              items: [
+                { text: 'Introduction', link: '/introduction' },
+                { text: 'Getting Started', link: '/getting-started' },
+                ...
+              ]
+            }
+          ]
     }
 }
