@@ -30,7 +30,16 @@ export default {
             // This sidebar gets displayed when user is under `config` directory.
             '/config/': [
                 {
-                    text: 'Config',
+                    text: 'Config-SectionA',
+                    items: [
+                        // This shows `/config/index.md` page.
+                        { text: 'Index', link: '/config/' }, // /config/index.md
+                        { text: 'Three', link: '/config/three' }, // /config/three.md
+                        { text: 'Four', link: '/config/four' } // /config/four.md
+                    ]
+                },
+                {
+                    text: 'Config-SectionB',
                     items: [
                         // This shows `/config/index.md` page.
                         { text: 'Index', link: '/config/' }, // /config/index.md
